@@ -1,257 +1,293 @@
 body {
   background-image: linear-gradient(to right, #71e2de, #8ce4dc, #a2e5db, #b6e7dc, #c8e8df, #d2e9de, #dbeadf, #e3ebe2, #e9ebe0, #efebdf, #f6ebe0, #fcebe3);
 }
-
 .sticky {
   background-image: linear-gradient(to right, #71e2de, #8ce4dc, #a2e5db, #b6e7dc, #c8e8df, #d2e9de, #dbeadf, #e3ebe2, #e9ebe0, #efebdf, #f6ebe0, #fcebe3);
-  position: fixed;
-  top: -15px;
-  width: 100%;
-  z-index: 1000; /* Adjust z-index as needed */
+    position: fixed;
+    top: -15px;
+    width: 100%;
+    z-index: 1000; /* Adjust z-index as needed */
 }
-
 .navbar {
-  transition: top 0.3s ease;
+    transition: top 0.3s ease;
 }
-
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-
-ul li a {
+ul li a{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  text-decoration: none;
-  color: black;
-}
+   text-decoration: none;
+   color: black;
+  }
 
-.navbar li {
-  float: left;
-  list-style: none;
-  margin: 15px 20px;
-}
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 15px 20px;
+    
+  }
+  .clearfix{
+    float: right;
+    padding: 12px 75px;
+  }
 
-.clearfix {
-  float: right;
-  padding: 12px 75px;
-}
-
-button:hover {
-  box-shadow: 5px 5px 5px 5px;
-  cursor: pointer;
-}
-
-button {
+  button:hover {
+    box-shadow: 5px 5px 5px 5px ;
+    cursor: pointer;
+  }
+button{
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  border: none;
-  padding: 14px 20px;
-  background-color: transparent;
+    font-size: 17px;
+    border: none;
+    padding: 14px 20px;
+    background-color: transparent;
+  }
+  .home{
+    height: 100vh;
+  }
+  .headforname{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#191919;
+    
+  }
+  .losp{
+    margin: 9px 4px 0px 61px;
+    height: 22px;
+  }
+  .headinglogo{
+    margin: 79px 0 0 10px;
+    position: absolute;
+  }
+  .headphone{
+    margin: 66px 87.5px 0 0;
+    float: right;
+    height: 500px;
+    width: 500px;
 }
 
-.home {
-  height: 100vh;
-}
-
-.headforname {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  color: #191919;
-}
-
-.losp {
-  margin: 9px 4px 0px 61px;
-  height: 22px;
-}
-
-.headinglogo {
-  margin: 95px 0 0 13px;
-  position: absolute;
-}
-
-.headphone {
-  margin: 80px 105px 0 0;
-  float: right;
-  height: 600px;
-  width: 600px;
-}
-
-.pbold {
+.pbold{
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   display: inline-block;
-  font-size: 105px;
+  font-size: 87.5px;
 }
-
-.plite {
+.plite{
   display: inline-block;
-  font-size: 105px;
-  margin-left: 165px;
-  margin-top: 245px;
+  font-size: 87.5px;
+  margin-left: 137.50px;
+  margin-top: 204px;
 }
-
-.buynow {
+.buynow{
   font-family: 'Roboto', sans-serif;
-  border-radius: 50px;
+  border-radius: 40px;
   background-color: #ffffff;
 }
-
-.Shopall {
-  border-radius: 50px;
-  background-color: #fdfdfd7a;
+.Shopall{
+border-radius: 40px;
+background-color: #fdfdfd7a;
 }
-
-.Shopall,
-.buynow {
-  margin: -45px -100px 0px 145px;
+.Shopall, .buynow{  
+  margin: -54px -50px 0px 124px;
   display: inline-block;
-  padding: 20px 50px 20px 50px;
+  padding: 16px 40px 16px 40px;
   font-size: 30px;
 }
-
-#About {
+#About{
   height: 100vh;
 }
 
 .aboutphoto {
-  border-radius: 0 154px 0 0;
-  margin: 112px 175px 0 0;
+  border-radius: 0 123.2px 0 0;
+  margin: 89.6px 140px 0 0;
   float: right;
-  height: 500px;
-  width: 500px;
+  height: 400px; /* 20% decrease */
+  width: 400px; /* 20% decrease */
 }
 
 .abouthead {
   width: max-content;
-  font-size: 80px;
+  font-size: 64px; /* 20% decrease */
   font-family: 'Roboto', sans-serif;
 }
 
 .abouttext {
-  margin-left: 110px;
-  margin-top: 130px;
-  width: 532px;
+  margin-left: 88px;
+  margin-top: 104px;
+  width: 425.6px;
   display: inline-block;
 }
 
 .aboutdetail {
-  margin: -40px 0 0 0;
-  width: 842px;
-  font-size: 43px;
+  margin: -32px 0 0 0;
+  width: 673.6px;
+  font-size: 34.4px; /* 20% decrease */
 }
 
 #Products {
-  height: 100vh;
+  height: 100vh; /* Adjusted value for demonstration */
 }
 
 .product-head {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 55px;
-  margin: 45px 0 0 13px;
+  font-size: 44px; /* 20% decrease */
+  margin: 52px 0 0 10.4px; /* 20% decrease */
 }
 
 .product-category {
   background-color: white;
-  padding: 30px 30px 40px 30px;
-  border-radius: 0 100px 0 100px;
+  padding: 24px 24px 32px 24px; /* 20% decrease */
+  border-radius: 0 80px 0 80px;
 }
 
 .product-img {
   display: flex;
   justify-content: space-evenly;
-  margin: 55px 0 0 0;
+  margin: 44px 0 0 0;
 }
 
 .product-category-img {
-  border-radius: 0 75px 0 0;
-  height: 270px;
-  width: 270px;
+  border-radius: 0 60px 0 0; /* 20% decrease */
+  height: 216px; /* 20% decrease */
+  width: 216px; /* 20% decrease */
 }
 
 .product-detail {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 20px;
-  width: 272px;
+  font-size: 16px; /* 20% decrease */
+  width: 217.6px;
 }
 
 .image-head {
-  font-size: 23px;
+  font-size: 18.4px; /* 20% decrease */
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   text-align: center;
 }
 
 #support {
-  height: 100vh;
+  height: 100vh; /* Adjusted value for demonstration */
 }
 
 .support-head {
   font-family: 'Roboto', sans-serif;
   display: inline-block;
-  font-size: 55px;
-  margin: 90px 0 0 80px;
+  font-size: 44px; /* 20% decrease */
+  margin: 72px 0 0 64px; /* 20% decrease */
 }
 
 .support-img {
-  width: 570px;
-  height: 570px;
+  width: 456px; /* 20% decrease */
+  height: 456px; /* 20% decrease */
   float: right;
-  border-radius: 0 154px 0 0;
-  margin: 85px 100px 0 0;
+  border-radius: 0 123.2px 0 0;
+  margin: 68px 80px 0 0;
 }
 
 .support-detail {
-  font-size: 28px;
-  margin: 30px 0 0 80px;
+  font-size: 22.4px; /* 20% decrease */
+  margin: 24px 0 0 64px; /* 20% decrease */
   display: inline-block;
-  width: 510px;
+  width: 408px; /* 20% decrease */
 }
 
 .supoort-visit {
-  font-size: 28px;
-  margin: 35px 0 0 80px;
+  font-size: 22.4px; /* 20% decrease */
+  margin: 28px 0 0 64px; /* 20% decrease */
 }
 
 .support-location-head {
   font-family: 'Roboto', sans-serif;
-  font-size: 35px;
-  margin: 65px 0 0 80px;
+  font-size: 28px; /* 20% decrease */
+  margin: 52px 0 0 64px; /* 20% decrease */
   display: inline-block;
 }
 
 .support-location {
-  font-size: 24px;
-  width: 334px;
-  margin: 35px 0 0 80px;
+  font-size: 19.2px; /* 20% decrease */
+  width: 267.2px; /* 20% decrease */
+  margin: 28px 0 0 64px; /* 20% decrease */
+}#contact{
+  height: 100vh;
 }
 
 #contact {
-  height: 100vh;
+  height: 100vh; /* Adjusted value for demonstration */
 }
 
 .contact-main {
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
+  font-size: 32px; /* 20% decrease */
   text-align: center;
-  margin: 42px 74px 2px 95px;
+  margin: 33.6px 59.2px 1.6px 76px; /* 20% decrease */
   display: inline-block;
 }
 
 .contact-head {
-  margin: 17px 0px 0px 350px;
+  margin: 13.6px 0 0 280px;
   display: flex;
   justify-content: center;
 }
 
 .contact-add {
-  margin: 35px -108px 0 243px;
-  font-size: 33px;
-  width: 248px;
+  margin: 28px -86.4px 0 194.4px; /* 20% decrease */
+  font-size: 26.4px; /* 20% decrease */
+  width: 198.4px; /* 20% decrease */
 }
 
-.contact-detail {
+.contact-detail{
   display: flex;
   justify-content: center;
+}
+
+/* code inext */
+/* Your existing CSS code */
+
+/* Media Query for Tablets */
+@media only screen and (max-width: 768px) {
+  .navbar li {
+    float: none;
+    margin: 15px 0;
+  }
+
+  .clearfix {
+    float: none;
+    padding: 12px 20px;
+  }
+
+  .buynow,
+  .Shopall {
+    margin: 20px 0;
+    display: block;
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 480px) {
+  .navbar li {
+    float: none;
+    margin: 15px 0;
+  }
+
+  .clearfix {
+    float: none;
+    padding: 12px 20px;
+  }
+
+  .buynow,
+  .Shopall {
+    margin: 20px 0;
+    display: block;
+    padding: 15px 20px;
+    font-size: 18px;
+  }
+
+  /* Add more responsive styles as needed */
 }
