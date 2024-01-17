@@ -1,0 +1,220 @@
+body {
+  background-image: linear-gradient(to right, #71e2de, #8ce4dc, #a2e5db, #b6e7dc, #c8e8df, #d2e9de, #dbeadf, #e3ebe2, #e9ebe0, #efebdf, #f6ebe0, #fcebe3);
+}
+.sticky {
+  background-image: linear-gradient(to right, #71e2de, #8ce4dc, #a2e5db, #b6e7dc, #c8e8df, #d2e9de, #dbeadf, #e3ebe2, #e9ebe0, #efebdf, #f6ebe0, #fcebe3);
+    position: fixed;
+    top: -15px;
+    width: 100%;
+    z-index: 1000; /* Adjust z-index as needed */
+}
+.navbar {
+    transition: top 0.3s ease;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul li a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+   text-decoration: none;
+   color: black;
+  }
+
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 15px 20px;
+    
+  }
+  .clearfix{
+    float: right;
+    padding: 12px 75px;
+  }
+
+  button:hover {
+    box-shadow: 5px 5px 5px 5px ;
+    cursor: pointer;
+  }
+button{
+  font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    border: none;
+    padding: 14px 20px;
+    background-color: transparent;
+  }
+  .home{
+    height: 100vh;
+  }
+  .headforname{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#191919;
+    
+  }
+  .losp{
+    margin: 9px 4px 0px 61px;
+    height: 22px;
+  }
+  .headinglogo{
+    margin: 95px 0 0 13px;
+    position: absolute;
+  }
+  .headphone{
+    margin: 80px 105px 0 0;
+    float: right;
+    height: 600px;
+    width: 600px;
+}
+
+.pbold{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 105px;
+}
+.plite{
+  display: inline-block;
+  font-size: 105px;
+  margin-left: 165px;
+  margin-top: 245px;
+}
+.buynow{
+  font-family: 'Roboto', sans-serif;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+.Shopall{
+border-radius: 50px;
+background-color: #fdfdfd7a;
+}
+.Shopall, .buynow{  
+  margin: -45px -100px 0px 145px;
+  display: inline-block;
+  padding: 20px 50px 20px 50px;
+  font-size: 30px;
+}
+#About{
+  height: 100vh;
+}
+.aboutphoto{
+  border-radius: 0 154px 0 0;
+  margin: 112px 175px 0 0;
+  float: right;
+  height: 500px;
+  width: 500px;
+}
+.abouthead{
+  width: max-content;
+    font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+}
+.abouttext{
+  margin-left: 110px;
+  margin-top: 130px;
+  width: 532px;
+  display: inline-block;
+}
+.aboutdetail{
+  margin: -40px 0 0 0;
+  width: 842px;
+    font-size: 43px;
+}
+#Products{
+  height: 100vh;
+}
+.product-head{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  margin: 45px 0 0 13px;
+}
+.product-category{
+  background-color: white;
+      padding: 30px 30px 40px 30px;
+      border-radius: 0 100px 0 100px;
+}
+.product-img{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 55px 0 0 0;
+}
+.product-category-img{
+  border-radius: 0 75px 0 0;
+  height: 270px;
+  width: 270px;
+}
+.product-detail{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+    font-size: 20px;
+    width: 272px;
+}
+.image-head{
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+#support{
+  height: 100vh;
+}
+.support-head{
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  font-size: 55px;
+  margin: 90px 0 0 80px;
+  }
+  .support-img{
+    width: 570px;
+    height: 570px;
+    float: right;
+    border-radius: 0 154px 0 0;
+    margin: 85px 100px 0 0;
+  }
+  .support-detail{
+    font-size: 28px;
+    margin: 30px 0 0 80px;
+    display: inline-block;
+    width: 510px;
+  }
+.supoort-visit{
+  font-size: 28px;
+    margin: 35px 0 0 80px;
+}
+.support-location-head{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+    margin: 65px 0 0 80px;
+    display: inline-block;
+}
+.support-location{
+  font-size: 24px;
+  width: 334px;
+  margin: 35px 0 0 80px;
+}
+#contact{
+  height: 100vh;
+}
+
+.contact-main{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 42px 74px 2px 95px;
+  display: inline-block;
+}
+.contact-head{
+  margin: 17px 0px 0px 350px;
+  display: flex;
+  justify-content: center;
+}
+.contact-add{
+  margin: 35px -108px 0 243px;
+  font-size: 33px;
+  width: 248px;
+}
+.contact-detail{
+  display: flex;
+  justify-content: center;
+}
