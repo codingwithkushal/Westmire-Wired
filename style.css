@@ -242,10 +242,15 @@ background-color: #fdfdfd7a;
   display: flex;
   justify-content: center;
 }
-
-/* code inext */
-/* Your existing CSS code */
-
+.footer{
+  font-family: 'Roboto', sans-serif;
+  margin: 120px 0 0 50px;
+}
+.footer a{
+  font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+   color: black;
+}
 /* Media Query for Tablets */
 @media only screen and (max-width: 768px) {
   .navbar li {
