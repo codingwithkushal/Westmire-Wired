@@ -6,7 +6,7 @@ body {
     position: fixed;
     top: -15px;
     width: 100%;
-    z-index: 1000; /* Adjust z-index as needed */
+    z-index: 1000; 
 }
 .navbar {
     transition: top 0.3s ease;
@@ -43,7 +43,7 @@ button{
     padding: 14px 20px;
     background-color: transparent;
   }
-  .home{
+.home, #About, #Products, #support, #contact {
     height: 100vh;
   }
   .headforname{
@@ -94,21 +94,17 @@ background-color: #fdfdfd7a;
   padding: 16px 40px 16px 40px;
   font-size: 30px;
 }
-#About{
-  height: 100vh;
-}
-
 .aboutphoto {
   border-radius: 0 123.2px 0 0;
   margin: 89.6px 140px 0 0;
   float: right;
-  height: 400px; /* 20% decrease */
-  width: 400px; /* 20% decrease */
+  height: 400px; 
+  width: 400px; 
 }
 
 .abouthead {
   width: max-content;
-  font-size: 64px; /* 20% decrease */
+  font-size: 64px; 
   font-family: 'Roboto', sans-serif;
 }
 
@@ -122,23 +118,18 @@ background-color: #fdfdfd7a;
 .aboutdetail {
   margin: -32px 0 0 0;
   width: 673.6px;
-  font-size: 34.4px; /* 20% decrease */
+  font-size: 34.4px; 
 }
-
-#Products {
-  height: 100vh; /* Adjusted value for demonstration */
-}
-
 .product-head {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 44px; /* 20% decrease */
-  margin: 52px 0 0 10.4px; /* 20% decrease */
+  font-size: 44px; 
+  margin: 52px 0 0 10.4px; 
 }
 
 .product-category {
   background-color: white;
-  padding: 24px 24px 32px 24px; /* 20% decrease */
+  padding: 24px 24px 32px 24px; 
   border-radius: 0 80px 0 80px;
 }
 
@@ -149,93 +140,76 @@ background-color: #fdfdfd7a;
 }
 
 .product-category-img {
-  border-radius: 0 60px 0 0; /* 20% decrease */
-  height: 216px; /* 20% decrease */
-  width: 216px; /* 20% decrease */
+  border-radius: 0 60px 0 0; 
+  height: 216px;
+  width: 216px; 
 }
 
 .product-detail {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 16px; /* 20% decrease */
+  font-size: 16px; 
   width: 217.6px;
 }
 
 .image-head {
-  font-size: 18.4px; /* 20% decrease */
+  font-size: 18.4px; 
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   text-align: center;
 }
-
-#support {
-  height: 100vh; /* Adjusted value for demonstration */
-}
-
 .support-head {
   font-family: 'Roboto', sans-serif;
   display: inline-block;
-  font-size: 44px; /* 20% decrease */
-  margin: 72px 0 0 64px; /* 20% decrease */
+  font-size: 44px; 
+  margin: 72px 0 0 64px; 
 }
 
 .support-img {
-  width: 456px; /* 20% decrease */
-  height: 456px; /* 20% decrease */
+  width: 456px;
+  height: 456px; 
   float: right;
   border-radius: 0 123.2px 0 0;
   margin: 68px 80px 0 0;
 }
-
 .support-detail {
-  font-size: 22.4px; /* 20% decrease */
-  margin: 24px 0 0 64px; /* 20% decrease */
+  font-size: 22.4px; 
+  margin: 24px 0 0 64px; 
   display: inline-block;
-  width: 408px; /* 20% decrease */
+  width: 408px; 
 }
-
 .supoort-visit {
-  font-size: 22.4px; /* 20% decrease */
-  margin: 28px 0 0 64px; /* 20% decrease */
+  font-size: 22.4px; 
+  margin: 28px 0 0 64px; 
 }
 
 .support-location-head {
   font-family: 'Roboto', sans-serif;
-  font-size: 28px; /* 20% decrease */
-  margin: 52px 0 0 64px; /* 20% decrease */
+  font-size: 28px; 
+  margin: 52px 0 0 64px;
   display: inline-block;
 }
 
 .support-location {
-  font-size: 19.2px; /* 20% decrease */
-  width: 267.2px; /* 20% decrease */
-  margin: 28px 0 0 64px; /* 20% decrease */
-}#contact{
-  height: 100vh;
-}
-
-#contact {
-  height: 100vh; /* Adjusted value for demonstration */
-}
-
+  font-size: 19.2px; 
+  width: 267.2px; 
+  margin: 28px 0 0 64px; }
 .contact-main {
   font-family: 'Roboto', sans-serif;
-  font-size: 32px; /* 20% decrease */
+  font-size: 32px; 
   text-align: center;
-  margin: 33.6px 59.2px 1.6px 76px; /* 20% decrease */
+  margin: 33.6px 59.2px 1.6px 76px; 
   display: inline-block;
 }
-
 .contact-head {
   margin: 13.6px 0 0 280px;
   display: flex;
   justify-content: center;
 }
-
 .contact-add {
-  margin: 28px -86.4px 0 194.4px; /* 20% decrease */
-  font-size: 26.4px; /* 20% decrease */
-  width: 198.4px; /* 20% decrease */
+  margin: 28px -86.4px 0 194.4px; 
+  font-size: 26.4px; 
+  width: 198.4px; 
 }
 
 .contact-detail{
@@ -250,49 +224,4 @@ background-color: #fdfdfd7a;
   font-family: 'Roboto', sans-serif;
    text-decoration: none;
    color: black;
-}
-/* Media Query for Tablets */
-@media only screen and (max-width: 768px) {
-  .navbar li {
-    float: none;
-    margin: 15px 0;
-  }
-
-  .clearfix {
-    float: none;
-    padding: 12px 20px;
-  }
-
-  .buynow,
-  .Shopall {
-    margin: 20px 0;
-    display: block;
-    padding: 15px 30px;
-    font-size: 20px;
-  }
-
-  /* Add more responsive styles as needed */
-}
-
-/* Media Query for Mobile Devices */
-@media only screen and (max-width: 480px) {
-  .navbar li {
-    float: none;
-    margin: 15px 0;
-  }
-
-  .clearfix {
-    float: none;
-    padding: 12px 20px;
-  }
-
-  .buynow,
-  .Shopall {
-    margin: 20px 0;
-    display: block;
-    padding: 15px 20px;
-    font-size: 18px;
-  }
-
-  /* Add more responsive styles as needed */
 }
