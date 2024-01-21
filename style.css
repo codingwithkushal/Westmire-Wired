@@ -225,3 +225,143 @@ background-color: #fdfdfd7a;
    text-decoration: none;
    color: black;
 }
+@media only screen and (min-width: 393px) and (orientation: portrait) {
+ 
+body{
+ background-repeat: no-repeat;
+  display: inline-block;
+    background-attachment: fixed;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar li {
+  margin: 0px 0 1px 0px;
+}
+
+.navbar a {
+  padding: 20px 25px 20px 10px;
+  font-size: 16px; 
+}
+
+.clearfix {
+  float: none;
+  text-align: center;
+}
+
+.signupbtn, .cancelbtn {
+  display: inline-block;
+  margin: 10px 0 0 -20px;
+}
+
+.home, #About{
+  height: 205vh; 
+}
+#Products {
+height: fit-content;
+}
+.headinglogo{
+  margin: 130px 0 0 10px;
+  position: absolute;
+}
+.headphone{
+  margin: 70px 0 0 0;
+  float: center;
+  height: 800px;
+  width: 200px;
+}
+
+.pbold{
+  font-size: 87px;
+}
+.plite{
+  font-size: 87px;
+  margin-left: 63px;
+  margin-top: 204px;
+}
+
+.Shopall, .buynow{  
+  margin: 64px -50px 0px 124px;
+}
+ 
+  .headphone,
+  .aboutphoto,
+  .product-category-img,
+  .support-img {
+    width: 100%; 
+  }
+
+.contact-detail{
+  margin-left: -187px;
+  margin-right: 140px;
+}
+.support-head{
+  position: absolute;
+  margin: 32px 0px 0px 12px;
+}
+.aboutphoto {
+  border-radius: 0 123.2px 0 0;
+  margin: 89.6px 120px 0 90px;
+  height: 800px; 
+  width: 600px; 
+}
+.abouttext{
+margin-top: 175px;
+}
+.product-head{
+  margin-top: 130px;
+}
+.product-img{
+  display:inline-block;
+  margin: 55px 0 0 195px;
+}
+.product-category{
+  margin: 25px 0 0 0;
+}
+.product-detail{
+  margin: 10px 0 0 50px;
+}
+.support-head {
+  display: inline-block;
+  font-size: 44px; 
+  margin: 152px 0 0 50px; 
+}
+
+.support-img {
+  width: 556px; 
+  height: 556px; 
+  border-radius: 0 123.2px 0 0;
+  margin: 268px 150px 0 0;
+}
+
+.support-detail {
+  font-size: 22.4px; 
+  margin: 40px 0 0 64px; 
+  display: inline-block;
+  width: 500px; 
+}
+.contact-main {
+  text-align: center;
+  margin: 290px 1px 1.6px 76px; 
+  display: inline-block;
+}
+
+.contact-head {
+  margin: 13.6px 5px 0 -150px;
+  display: flex; 
+}
+.footer{
+  font-size: 30px;
+  padding-bottom: 210px;
+}
+#contact{
+  height: fit-content;
+}
+#support{
+  height: fit-content;
+}
+}
