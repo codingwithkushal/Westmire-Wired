@@ -43,14 +43,13 @@ button{
     padding: 14px 20px;
     background-color: transparent;
   }
-.home, #About, #Products, #support, #contact {
-    height: 100vh;
+  .home, #About, #Products, #support, #contact {
+    height: 100vh; 
   }
   .headforname{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    color:#191919;
-    
+    color:#191919; 
   }
   .losp{
     margin: 9px 4px 0px 61px;
@@ -59,14 +58,15 @@ button{
   .headinglogo{
     margin: 79px 0 0 10px;
     position: absolute;
+    animation: slideFromLeft 2s ease-out;
   }
   .headphone{
     margin: 66px 87.5px 0 0;
     float: right;
     height: 500px;
     width: 500px;
+    animation: slideFromTop 2s 2s ease-out;
 }
-
 .pbold{
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
@@ -78,6 +78,7 @@ button{
   font-size: 87.5px;
   margin-left: 137.50px;
   margin-top: 204px;
+  animation: slideFromLeft 2s 1.5s ease-out;
 }
 .buynow{
   font-family: 'Roboto', sans-serif;
@@ -100,6 +101,7 @@ background-color: #fdfdfd7a;
   float: right;
   height: 400px; 
   width: 400px; 
+  animation: slideFromTop 1s 1s ease-out;
 }
 
 .abouthead {
@@ -113,6 +115,7 @@ background-color: #fdfdfd7a;
   margin-top: 104px;
   width: 425.6px;
   display: inline-block;
+  animation: slideFromLeft 2s ease-out;
 }
 
 .aboutdetail {
@@ -131,6 +134,7 @@ background-color: #fdfdfd7a;
   background-color: white;
   padding: 24px 24px 32px 24px; 
   border-radius: 0 80px 0 80px;
+  animation: slideFromTop 1s 1s ease-out;
 }
 
 .product-img {
@@ -141,7 +145,7 @@ background-color: #fdfdfd7a;
 
 .product-category-img {
   border-radius: 0 60px 0 0; 
-  height: 216px;
+  height: 216px; 
   width: 216px; 
 }
 
@@ -163,49 +167,61 @@ background-color: #fdfdfd7a;
   display: inline-block;
   font-size: 44px; 
   margin: 72px 0 0 64px; 
+  animation: slideFromLeft 2s ease-out;
 }
 
 .support-img {
-  width: 456px;
+  width: 456px; 
   height: 456px; 
   float: right;
   border-radius: 0 123.2px 0 0;
   margin: 68px 80px 0 0;
+  animation: slideFromTop 1s 1s ease-out;
 }
+
 .support-detail {
+  animation: slideFromLeft 2s ease-out;
   font-size: 22.4px; 
   margin: 24px 0 0 64px; 
   display: inline-block;
   width: 408px; 
 }
+
 .supoort-visit {
+  animation: slideFromLeft 2s ease-out;
   font-size: 22.4px; 
   margin: 28px 0 0 64px; 
 }
 
 .support-location-head {
+  animation: slideFromLeft 2s ease-out;
   font-family: 'Roboto', sans-serif;
   font-size: 28px; 
-  margin: 52px 0 0 64px;
+  margin: 52px 0 0 64px; 
   display: inline-block;
 }
 
 .support-location {
   font-size: 19.2px; 
   width: 267.2px; 
-  margin: 28px 0 0 64px; }
+  margin: 28px 0 0 64px; 
+  animation: slideFromLeft 2s ease-out;
+}
 .contact-main {
   font-family: 'Roboto', sans-serif;
   font-size: 32px; 
   text-align: center;
   margin: 33.6px 59.2px 1.6px 76px; 
   display: inline-block;
+  animation: slideFromLeft 2s ease-out;
 }
+
 .contact-head {
   margin: 13.6px 0 0 280px;
   display: flex;
   justify-content: center;
 }
+
 .contact-add {
   margin: 28px -86.4px 0 194.4px; 
   font-size: 26.4px; 
@@ -213,20 +229,53 @@ background-color: #fdfdfd7a;
 }
 
 .contact-detail{
+  animation: slideFromLeft 2s ease-out;
   display: flex;
   justify-content: center;
 }
+
 .footer{
   font-family: 'Roboto', sans-serif;
   margin: 120px 0 0 50px;
+  animation: slideFromLeft 2s ease-out;
 }
 .footer a{
   font-family: 'Roboto', sans-serif;
    text-decoration: none;
    color: black;
-}
-@media only screen and (min-width: 320px) and (orientation: portrait) {
- 
+  }
+  @keyframes slideFromLeft {
+              from {
+                  opacity: 0;
+                  transform: translateX(-50px);
+              }
+              to {
+                  opacity: 1;
+                  transform: translateX(0);
+              }
+          }
+  
+          @keyframes slideFromTop {
+              from {
+                  opacity: 0;
+                  transform: translateY(-50px);
+              }
+              to {
+                  opacity: 1;
+                  transform: translateY(0);
+              }
+          }
+  
+          @keyframes fadeIn {
+              from {
+                  opacity: 0;
+              }
+              to {
+                  opacity: 1;
+              }
+          }
+  @media only screen and (min-width: 320px) and (orientation: portrait) {
+    
 body{
  background-repeat: no-repeat;
   display: inline-block;
