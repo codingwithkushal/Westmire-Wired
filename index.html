@@ -5,45 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Westmire Wired</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="mainStylesheet">
+    <link rel="stylesheet" href="mediaquery.css" id="mediaQueryStylesheet" disabled>
     <link rel="icon" type="image/x-icon" href="./asset/logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
-    <div class="sticky">
+    <div class="sticky"  id="myLinks">
         <nav class="navbar">
             <ul>
-                <li class="navbar"><a href="#Home" class="nbar"><img src="./logo/house-door.svg" alt=""
-                            height="25px"><br>Home</a></li>
-                <li class="navbar"><a href="#About" class="nbar"><img src="./logo/cart.svg" alt="" height="25px">
+                <li class="navbar"><a href="#Home" onclick="navigateToSection('Home')" class="nbar"><br>Home</a></li>
+                <li class="navbar"><a href="#About" onclick="navigateToSection('About')" class="nbar"><img src="./logo/cart.svg" alt="" height="25px">
                         <br>About</a></li>
-                <li class="navbar"><a href="#Products" class="nbar"><img src="./logo/boxes.svg" alt=""
+                <li class="navbar"><a href="#Products" onclick="navigateToSection('Products')" class="nbar"><img src="./logo/boxes.svg" alt=""
                             height="25px"><br>Products</a></li>
-                <li class="navbar"><a href="#support" class="nbar"><img src="./logo/person-circle.svg" alt=""
+                <li class="navbar"><a href="#support" onclick="navigateToSection('support')" class="nbar"><img src="./logo/person-circle.svg" alt=""
                             height="25px"><br>Support</a></li>
-                <li class="navbar"><a href="#contact" class="nbar"><img src="./logo/person-circle.svg" alt=""
-                            height="25px"><br>Contact Us</a></li>
+                <li class="navbar"><a href="#contact" onclick="navigateToSection('contact')" class="nbar"><br>Contact Us</a></li>
                 <div class="clearfix">
+                      </a>
                     <button type="submit" class="signupbtn">Sign Up</button>
                     <button type="button" class="cancelbtn">Sign In</button>
                 </div>
             </ul>
         </nav>
     </div>
-    <div class="home" id="Home">
+    <div class="home animate-on-scroll" id="Home"> <hr>
         <div class="headinglogo">
             <img src="./asset/logo.svg" alt="" class="losp"> <span class="headforname">Westmire Wired</span>
         </div>
         <p class="plite">The Westmire <br> <span class="pbold">A56 Headset </span></p>
-        <img src="./asset/headphone.png" alt="headphone" class="headphone"><br>
+  
+        <img src="./asset/headphone.png" alt="headphone" class="headphone">
         <p class="buynow">Buy Now</p>
         <p class="Shopall">Shop All</p>
     </div>
-
-    <div id="About">
+    <div id="About" class="About animate-on-scroll">
         <div class="abouttext">
             <p class="abouthead">All-new technology</p>
             <br>
@@ -53,8 +54,8 @@
         </div>
         <img src="./asset/photopower.jpg" alt="powerphoto" class="aboutphoto">
     </div>
-
-    <div id="Products">
+  
+    <div id="Products" class="Products animate-on-scroll">
         <br>
         <p class="product-head">Shop by category</p>
         <div class="product-img">
@@ -72,7 +73,8 @@
             </div>
         </div>
     </div>
-    <div id="support">
+   
+    <div id="support" class="support animate-on-scroll">
         <img src="./asset/support.jpg" alt="" class="support-img">
         <p class="support-head">Expert Support</p>
         <br>
@@ -87,8 +89,8 @@
             Any City, State, Any Country
             (123) 456 7890</p>
     </div>
-
-    <div id="contact">
+   
+    <div id="contact" class="contact animate-on-scroll">
         <p class="support-head">Connect with us</p>
      
         <div class="contact-head">
@@ -103,11 +105,11 @@
     Instagram <br>
     Twitter</p>
 </div>
-        <div class="footer">
+<div class="footer animate-on-scroll">
    <p> Design By @canvacreativestudio</p>
    <a href="https://github.com/codingwithkushal">Developed By © 2024 codingwithkushal</a>
 </div> 
-    </div>
+</div>
 </body>
 <script src="./script.js"></script>
 
